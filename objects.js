@@ -2,6 +2,6 @@ var playlist = {
   RHCP:  'Californication'
 }
 function updatePlaylist(playlist, artistName, songTitle){
-  playlist[key] = value;
+  playlist[artistName] = songTitle;
   return playlist;
 }
